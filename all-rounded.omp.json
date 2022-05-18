@@ -78,7 +78,7 @@
             "fetch_version": true
           },
           "style": "powerline",
-          "template": " {{ if .PackageManagerIcon }}{{ .PackageManagerIcon }} {{ end }}{{ .Full }} \uf898",
+          "template": " {{ if .PackageManagerIcon }}{{ .PackageManagerIcon }} {{ end }}{{ .Full }} \uf898 ",
           "type": "node"
         },
         {
@@ -202,7 +202,6 @@
       "type": "prompt"
     }
   ],
-  "console_title_template": "{{ .Folder }}",
   "final_space": true,
   "version": 2
 }

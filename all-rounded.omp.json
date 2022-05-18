@@ -19,7 +19,7 @@
     "aws_jan_background": "#f1184c",
     "root_background": "#ffff66",
     "executiontime_background": "#c4a000",
-    "exit_background": "#2e9599",
+    "exit_background": "#4fbe74",
     "exit__err_background": "#f1184c",
     "arrow": "#ff0000",
     "white": "#ffffff"
@@ -152,14 +152,6 @@
           "style": "powerline",
           "template": " {{ .Profile }}{{ if .Region }}@{{ .Region }}{{ end }} \ue7ad ",
           "type": "aws"
-        },
-        {
-          "background": "p:root_background",
-          "foreground": "p:main_foreground",
-          "powerline_symbol": "\ue0b4",
-          "style": "powerline",
-          "template": " \uf0ad ",
-          "type": "root"
         },
         {
           "background": "p:executiontime_background",
